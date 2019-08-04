@@ -3,13 +3,19 @@
 Device is LoRa tracker which incudes MCU, GPS and a few sensors for enviromental monitoring.
 
 Main components:
--TOP:
+- Top:
     - Murata ABZ (MCU + LoRa)
-    - Ublox MAX M8Q0 (GPS)
     - Bosch BME280 (Microclimate sensor)
-- ST LIS2DH12 (Accelerometer)
-- AMS TSL2591 (Light sensor)
-- Power supply components
+    - AMS TSL2591 (Light sensor)
+    - Power supply components:
+        - STM USBLC6 (ESD protection)
+        - Texas Instruments TPS62740DSSR (Buck converter)
+
+- Bottom:
+    - Ublox MAX M8Q0 (GPS)
+    - ST LIS2DH12 (Accelerometer)
+    - Power supply components:  
+        - Microchip MCP73831T (Battery charger)
 
 PCB specifications:
 - Device dimensions: 30x30 mm
