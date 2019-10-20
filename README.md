@@ -31,4 +31,5 @@ Assembled view
 Main power supply is from lithium-ion battery.
 
 To do:
-For lower power consumption add MOSFET (DMG6602) between MCU pin and GPS power pin.
+* For lower power consumption add MOSFET (DMG6602) between MCU pin and GPS power pin.
+* Change buck converter for lower power consumption.
